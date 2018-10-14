@@ -1,0 +1,11 @@
+.main {
+    position: relative;
+    text-align: center;
+    color: #ddd;
+    margin: 0 auto;
+    margin-top: 15em;
+}
+
+.main h1 {
+    font-size: 5em;
+}
