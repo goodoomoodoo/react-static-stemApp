@@ -42,6 +42,11 @@
     cursor: pointer;
 }
 
+.content-bar a {
+    text-decoration: none;
+    color: currentColor;
+}
+
 .content-bar li:hover {
     color: #333;
 }

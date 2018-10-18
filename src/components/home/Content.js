@@ -79,20 +79,26 @@ class Content extends React.Component
                 <div className='text'>
                     {
                         this.state.content.map( ( text, index ) => {
-                            return <ReactMarkDown key={index} source={text} />
+                            return (<div key={index} id={index}><ReactMarkDown source={text} /></div>)
                         })
                     }
                 </div>
                 <div className={sideBarClass}>
                     <ul>
                         <li>
-                            Statement
+                            <a href='#0'>
+                                Statement
+                            </a>
                         </li>
                         <li>
-                            Event
+                            <a href='#1'>
+                                Event
+                            </a>
                         </li>
                         <li>
-                            Contact
+                            <a href='#2'>
+                                Contact
+                            </a>
                         </li>
                     </ul>
                 </div>
